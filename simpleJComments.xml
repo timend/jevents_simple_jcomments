@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="jevents" method="upgrade">
+	<name>JEvents - simple JComments</name>
+	<author>Tim Enderling</author>
+	<creationDate>September 2015</creationDate>	
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail></authorEmail>	
+	<version>0.0.1</version>
+	<description>Enables simple JComments integration for JEvents</description>
+	<languages folder="language">
+            <language tag="en-GB">en-GB.plg_jevents_simple_jcomments.ini</language>
+	</languages>
+	<files>
+		<filename plugin="simpleJComments">simpleJComments.php</filename>
+		<!--<filename component="com_jcomments/plugins">plugins/com_jevents.plugin.php</filename>-->
+	</files>
+	<config>		
+	</config>
+</extension>
